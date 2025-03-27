@@ -1,3 +1,6 @@
+mod window;
+mod chunk;
 fn main() {
-    println!("Hello, world!");
+    chunk::chunk::using_chunk();
+    window::window::rendering_window();
 }
